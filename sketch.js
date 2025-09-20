@@ -6,14 +6,14 @@ let answerRevealed = false;
 
 function preload() {
   // Question pool
-  sound1 = loadSound('assets/Eno_DigitalClip_6dB.mp3');
-  sound2 = loadSound('assets/Eno_DigitalClip_12dB.mp3');
-  sound3 = loadSound('assets/Eno_DigitalClip_18dB.mp3');
-  sound4 = loadSound('assets/Eno_DigitalClip_24dB.mp3');
-  sound5 = loadSound('assets/Hoff_DigitalClip_6dB.mp3');
-  sound6 = loadSound('assets/Hoff_DigitalClip_12dB.mp3');
-  sound7 = loadSound('assets/Hoff_DigitalClip_18dB.mp3');
-  sound8 = loadSound('assets/Hoff_DigitalClip_24dB.mp3');
+  sound1 = loadSound('assets/Eno_TapeSat_6dB.mp3');
+  sound2 = loadSound('assets/Eno_TapeSat_12dB.mp3');
+  sound3 = loadSound('assets/Eno_TapeSat_18dB.mp3');
+  sound4 = loadSound('assets/Eno_TapeSat_24dB.mp3');
+  sound5 = loadSound('assets/Hoff_TapeSat_6dB.mp3');
+  sound6 = loadSound('assets/Hoff_TapeSat_12dB.mp3');
+  sound7 = loadSound('assets/Hoff_TapeSat_18dB.mp3');
+  sound8 = loadSound('assets/Hoff_TapeSat_24dB.mp3');
   // Originals
   original1 = loadSound('assets/EnoOriginal.mp3');
   original2 = loadSound('assets/HoffOriginal.mp3');
@@ -27,7 +27,7 @@ function setup(){
 
   // Title
   textSize(48);
-  text("Digital Clipping Practice", width/2, height/9);
+  text("Analog Tape Saturation Practice", width/2, height/9);
 
   // Subtitle
   textSize(28);
